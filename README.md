@@ -14,46 +14,50 @@
 ## 多账户
 最后获得的json大概长这样
 
-> {
->     "mcseekeri": {
->         "device_id": "114514",
->         "account_id": "1919810",
->         "secret": "893",
->         "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
->         "created": {
->             "location": "Neverland",
->             "ip_address": "114.51.45.14",
->             "datetime": "1970-01-01T00:00:00.000Z"
->         }
->     }
-> }
+```
+{
+    "mcseekeri": {
+        "device_id": "114514",
+        "account_id": "1919810",
+        "secret": "893",
+        "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
+        "created": {
+            "location": "Neverland",
+            "ip_address": "114.51.45.14",
+            "datetime": "1970-01-01T00:00:00.000Z"
+        }
+    }
+}
+```
 
 如果要多账户签到,那么需要修改成这样。
 
-> {
->     "mcseekeri": {
->         "device_id": "114514",
->         "account_id": "1919810",
->         "secret": "893",
->         "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
->         "created": {
->             "location": "Neverland",
->             "ip_address": "114.51.45.14",
->             "datetime": "1970-01-01T00:00:00.000Z"
->         }
->     },
->     "mcseekeri2333": {
->         "device_id": "114514",
->         "account_id": "1919810",
->         "secret": "893",
->         "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
->         "created": {
->             "location": "Neverland",
->             "ip_address": "114.51.45.14",
->             "datetime": "1970-01-01T00:00:00.000Z"
->         }
->     }
-> }
+```
+{
+    "mcseekeri": {
+        "device_id": "114514",
+        "account_id": "1919810",
+        "secret": "893",
+        "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
+        "created": {
+            "location": "Neverland",
+            "ip_address": "114.51.45.14",
+            "datetime": "1970-01-01T00:00:00.000Z"
+        }
+    },
+    "mcseekeri2333": {
+        "device_id": "114514",
+        "account_id": "1919810",
+        "secret": "893",
+        "user_agent": "DeviceAuthGenerator/1.1.0 Windows/10.0.19041",
+        "created": {
+            "location": "Neverland",
+            "ip_address": "114.51.45.14",
+            "datetime": "1970-01-01T00:00:00.000Z"
+        }
+    }
+}
+```
 
 可以使用[Sojson工具](https://www.sojson.com/)进行格式检查,保证语法合法性。
 # 致谢
